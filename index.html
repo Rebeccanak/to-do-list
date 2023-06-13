@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+       
+        <div>
+            <form class="form" id="form">
+                <h1>Becky's ToDo List</h1>
+                <label for="userId">User ID</label>
+                <input placeholder="Enter ID" type="text" id="userId" required>
+                <button type="button" id="fetchBtn">Fetch Todos</button>
+                <br><br>
+                <h2>Add Task</h2>
+                <label for="newTask">New Task</label>
+                <input placeholder="Enter Task" type="text" id="newTask" required>
+                <button type="button" id="addBtn">Add Task</button>
+                <br><br>
+                <h3>Update Item</h3>
+                <label for="updateItemId">Item ID to Update</label>
+                <input placeholder="Enter Item ID" type="number" id="updateItemId" required>
+                <br>
+                <label for="updatedTask">Updated Task</label>
+                <input placeholder="Enter Updated Task" type="text" id="updatedTask" required>
+                <button type="button" id="updateBtn">Update Task</button>
+                <br><br>
+                <h4>Delete Item</h4>
+                <label for="deleteItemId">Item ID to Delete</label>
+                <input placeholder="Enter Item ID" type="text" id="deleteItemId" required>
+                <button type="button" id="deleteBtn">Delete Task</button>
+                <br><br>
+              </form>
+              
+              <h3>Selected Items:</h3>
+              <ul id="todoList"></ul>
+              
+          
+            <ul id="todoList"></ul>
+          </div>
+          
+            <br><br>
+            
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
